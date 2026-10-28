@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Image} from 'react-native';
 import Icon from '@expo/vector-icons/FontAwesome6';
 
-const Movie = ({ title, year, icon_name, poster }) => {
+const Movie = ({ title, year, icon_name, poster, icon_color }) => {
     return (
         <View>
             <Image source={poster}
@@ -11,7 +11,7 @@ const Movie = ({ title, year, icon_name, poster }) => {
                 {title} {year}
             </Text>
 
-            <Icon name={icon_name} size={30} color={'#B23B23'}/>
+            <Icon name={icon_name} size={30} color={icon_color}/>
         </View>
     );
 };
