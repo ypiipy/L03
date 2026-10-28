@@ -26,8 +26,13 @@ const AllMovies = () => {
               year={2019}
               icon_name="crown"
               icon_color="gold"
-              poster={require('./img/images.jpg')}
+              poster={{uri:'https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg'}}
           />
+
+
+
+
+
 
       </ScrollView>
 
